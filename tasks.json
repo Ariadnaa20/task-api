@@ -1,21 +1,31 @@
-[
+{
+  "tasks": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Comprar pan y leche",
       "description": "Ir al supermercado antes de las 5 PM",
       "dueDate": "2024-12-10T15:00:00Z",
-      "priority": 4,
-      "completed": false,
+      "priority": "high",
+      "status": "pending",
       "icon": "shopping-cart"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Hacer ejercicio",
       "description": "Ir al gimnasio por la tarde",
       "dueDate": "2024-12-11T18:00:00Z",
-      "priority": 3,
-      "completed": false,
+      "priority": "medium",
+      "status": "inProgress",
       "icon": "exercise"
     }
+  ],
+  "icons": [
+    "shopping-cart",
+    "exercise",
+    "work",
+    "meeting",
+    "study"
   ]
+}
+
   
