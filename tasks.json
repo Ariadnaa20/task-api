@@ -7,7 +7,20 @@
       "dueDate": "2024-12-10T15:00:00Z",
       "priority": "high",
       "status": "pending",
-      "icon": "shopping-cart"
+      "icon": "shopping-cart",
+      "category": "personal",
+      "milestones": [
+        {
+          "name": "Comprar pan",
+          "dueDate": "2024-12-10T10:00:00Z",
+          "isCompleted": false
+        },
+        {
+          "name": "Comprar leche",
+          "dueDate": "2024-12-10T12:00:00Z",
+          "isCompleted": false
+        }
+      ]
     },
     {
       "id": "2",
@@ -16,7 +29,20 @@
       "dueDate": "2024-12-11T18:00:00Z",
       "priority": "medium",
       "status": "inProgress",
-      "icon": "exercise"
+      "icon": "exercise",
+      "category": "health",
+      "milestones": [
+        {
+          "name": "Calentamiento",
+          "dueDate": "2024-12-11T17:30:00Z",
+          "isCompleted": true
+        },
+        {
+          "name": "Ejercicio principal",
+          "dueDate": "2024-12-11T18:00:00Z",
+          "isCompleted": false
+        }
+      ]
     }
   ],
   "icons": [
@@ -25,7 +51,12 @@
     "work",
     "meeting",
     "study"
+  ],
+  "categories": [
+    "personal",
+    "health",
+    "work",
+    "study",
+    "others"
   ]
 }
-
-  
